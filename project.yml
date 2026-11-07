@@ -42,6 +42,14 @@ targets:
           - UIInterfaceOrientationPortrait
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
+        NSCameraUsageDescription: Joynt needs the camera to photograph meals you share.
+        NSPhotoLibraryUsageDescription: Joynt needs your library so you can pick a meal photo.
+        CFBundleURLTypes:
+          - CFBundleURLName: com.joynt.app
+            CFBundleURLSchemes:
+              - joynt
+        UILaunchScreen:
+          UIColorName: Cream
 schemes:
   Joynt:
     build:
