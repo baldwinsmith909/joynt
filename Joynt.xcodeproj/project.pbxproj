@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06FD640F7AB48A00E54E9724 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E43FA424AAD141A52CB0C5 /* RootView.swift */; };
+		1B8CA03566D1544B98F9CF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBE2F9CA78C285FB3DF7748 /* Assets.xcassets */; };
+		1D29625D3050C9B9485E44E5 /* CommentsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3750A693498E67DA71257916 /* CommentsSheet.swift */; };
+		2343CF2B6C165976F2976158 /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA51F9C1E4096B97B010066 /* ComposerView.swift */; };
+		24BAE1FD061FDB01246D5242 /* DemoCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ADA777D0A34CBD594F9416 /* DemoCatalog.swift */; };
+		28005EEC5D21FC3EDD2F3E86 /* StickyNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28954AD8F7C2ABBA8D6C2395 /* StickyNoteView.swift */; };
+		3B66C112878B1F4AE8252316 /* JoyntApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A879F535054D689D3DAB7A9 /* JoyntApp.swift */; };
+		4449A9CAABA733D3A755FE2F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988BED67B8A9DCB144AC14BB /* Models.swift */; };
+		4E1242E27C3691C6B47A8A1E /* JoyntTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B550A8F0F44B58AC3A42FF3D /* JoyntTheme.swift */; };
+		67B693701751C38835F613AB /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D1302DFEE0C562E47BD64A /* SignInView.swift */; };
+		7DAB01EEC8EE3827390DFBCA /* BlackPillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DD2F447BD19876D4BE6B80 /* BlackPillButton.swift */; };
+		98E271315FF1AC00E34136DE /* PosterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613D7A9F7B15DB6D089FF6E /* PosterCard.swift */; };
+		B3867D820A422745DFB1A573 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB1E1A151459DD26FCD530 /* ProfileView.swift */; };
+		D5792EF9AE67C5C20F7FA6D9 /* SupabaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD77CB09074B257B3F2632 /* SupabaseClient.swift */; };
+		E549DD7BF554F84FA53A8906 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD0893E3F47FB2C329A72DD /* FeedView.swift */; };
+		EA43A91854DDB7447E252347 /* SupabaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1BB9B79598C9FCFAED2FA /* SupabaseConfig.swift */; };
+		FFAFCEE51C85F79C1268973A /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67422FF5C2C7CEB049713053 /* AppStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09D1302DFEE0C562E47BD64A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		0A879F535054D689D3DAB7A9 /* JoyntApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyntApp.swift; sourceTree = "<group>"; };
+		11ADA777D0A34CBD594F9416 /* DemoCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCatalog.swift; sourceTree = "<group>"; };
+		13AD77CB09074B257B3F2632 /* SupabaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseClient.swift; sourceTree = "<group>"; };
+		23DD2F447BD19876D4BE6B80 /* BlackPillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackPillButton.swift; sourceTree = "<group>"; };
+		2613D7A9F7B15DB6D089FF6E /* PosterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCard.swift; sourceTree = "<group>"; };
+		28954AD8F7C2ABBA8D6C2395 /* StickyNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyNoteView.swift; sourceTree = "<group>"; };
+		3750A693498E67DA71257916 /* CommentsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsSheet.swift; sourceTree = "<group>"; };
+		4CA51F9C1E4096B97B010066 /* ComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerView.swift; sourceTree = "<group>"; };
+		4DBE2F9CA78C285FB3DF7748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56E43FA424AAD141A52CB0C5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		67422FF5C2C7CEB049713053 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		988BED67B8A9DCB144AC14BB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B550A8F0F44B58AC3A42FF3D /* JoyntTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyntTheme.swift; sourceTree = "<group>"; };
+		D1E1BB9B79598C9FCFAED2FA /* SupabaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseConfig.swift; sourceTree = "<group>"; };
+		DAD0893E3F47FB2C329A72DD /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		E023FA8E1CB90046B961F7C1 /* Joynt.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Joynt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B7073C92DD16F759C16806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC38E242FB0A9A033D1A66D7 /* Joynt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Joynt.entitlements; sourceTree = "<group>"; };
+		F4FB1E1A151459DD26FCD530 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		05DDA832547E2AAF9C4FC448 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9CC6FB89800176783F565F61 /* Auth */,
+				2D19691179CF9E51A931F5DF /* Feed */,
+				76A44333D3F125A0D9CD4D2D /* Post */,
+				8B6B6400A80E5154EE735740 /* Profile */,
+				BC47E14583E2413D117BB515 /* Root */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		223B6671C05CB1EB542FF342 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1BB9B79598C9FCFAED2FA /* SupabaseConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		2D19691179CF9E51A931F5DF /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				3750A693498E67DA71257916 /* CommentsSheet.swift */,
+				DAD0893E3F47FB2C329A72DD /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		3AA27774D7B297D7C661B2A9 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				B550A8F0F44B58AC3A42FF3D /* JoyntTheme.swift */,
+				C39D0DB80E79A2DE5C608555 /* Components */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		3D977455F0EF17383F33D2F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				988BED67B8A9DCB144AC14BB /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EA55426EC49625EA0661B53 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				67422FF5C2C7CEB049713053 /* AppStore.swift */,
+				11ADA777D0A34CBD594F9416 /* DemoCatalog.swift */,
+				13AD77CB09074B257B3F2632 /* SupabaseClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		76A44333D3F125A0D9CD4D2D /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				4CA51F9C1E4096B97B010066 /* ComposerView.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		7FFDF6B568FDD324E17A6085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E023FA8E1CB90046B961F7C1 /* Joynt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B6B6400A80E5154EE735740 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F4FB1E1A151459DD26FCD530 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9CC6FB89800176783F565F61 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				09D1302DFEE0C562E47BD64A /* SignInView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		B958AE7744D65F4D6C55C27D /* Joynt */ = {
+			isa = PBXGroup;
+			children = (
+				4DBE2F9CA78C285FB3DF7748 /* Assets.xcassets */,
+				E6B7073C92DD16F759C16806 /* Info.plist */,
+				EC38E242FB0A9A033D1A66D7 /* Joynt.entitlements */,
+				0A879F535054D689D3DAB7A9 /* JoyntApp.swift */,
+				223B6671C05CB1EB542FF342 /* Config */,
+				3AA27774D7B297D7C661B2A9 /* Design */,
+				3D977455F0EF17383F33D2F7 /* Models */,
+				3EA55426EC49625EA0661B53 /* Services */,
+				05DDA832547E2AAF9C4FC448 /* Views */,
+			);
+			path = Joynt;
+			sourceTree = "<group>";
+		};
+		BC47E14583E2413D117BB515 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				56E43FA424AAD141A52CB0C5 /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		C39D0DB80E79A2DE5C608555 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				23DD2F447BD19876D4BE6B80 /* BlackPillButton.swift */,
+				2613D7A9F7B15DB6D089FF6E /* PosterCard.swift */,
+				28954AD8F7C2ABBA8D6C2395 /* StickyNoteView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CEEA2EA449B1FFC2C8A151EA = {
+			isa = PBXGroup;
+			children = (
+				B958AE7744D65F4D6C55C27D /* Joynt */,
+				7FFDF6B568FDD324E17A6085 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B3599BA3CDBC22924F2CE76 /* Joynt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B2B4F42F5FD5A1DAC04DAF /* Build configuration list for PBXNativeTarget "Joynt" */;
+			buildPhases = (
+				6B9C41EB26902BB0BD214CFC /* Sources */,
+				3E34A791D008207C7B3F8154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Joynt;
+			packageProductDependencies = (
+			);
+			productName = Joynt;
+			productReference = E023FA8E1CB90046B961F7C1 /* Joynt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B2FF7F087F7B6D74FB83D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9B3599BA3CDBC22924F2CE76 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 10B6DAC1C786CD310F495CFD /* Build configuration list for PBXProject "Joynt" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CEEA2EA449B1FFC2C8A151EA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7FFDF6B568FDD324E17A6085 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B3599BA3CDBC22924F2CE76 /* Joynt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E34A791D008207C7B3F8154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8CA03566D1544B98F9CF74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B9C41EB26902BB0BD214CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAFCEE51C85F79C1268973A /* AppStore.swift in Sources */,
+				7DAB01EEC8EE3827390DFBCA /* BlackPillButton.swift in Sources */,
+				1D29625D3050C9B9485E44E5 /* CommentsSheet.swift in Sources */,
+				2343CF2B6C165976F2976158 /* ComposerView.swift in Sources */,
+				24BAE1FD061FDB01246D5242 /* DemoCatalog.swift in Sources */,
+				E549DD7BF554F84FA53A8906 /* FeedView.swift in Sources */,
+				3B66C112878B1F4AE8252316 /* JoyntApp.swift in Sources */,
+				4E1242E27C3691C6B47A8A1E /* JoyntTheme.swift in Sources */,
+				4449A9CAABA733D3A755FE2F /* Models.swift in Sources */,
+				98E271315FF1AC00E34136DE /* PosterCard.swift in Sources */,
+				B3867D820A422745DFB1A573 /* ProfileView.swift in Sources */,
+				06FD640F7AB48A00E54E9724 /* RootView.swift in Sources */,
+				67B693701751C38835F613AB /* SignInView.swift in Sources */,
+				28005EEC5D21FC3EDD2F3E86 /* StickyNoteView.swift in Sources */,
+				D5792EF9AE67C5C20F7FA6D9 /* SupabaseClient.swift in Sources */,
+				EA43A91854DDB7447E252347 /* SupabaseConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		008C2355000A46964D1C8AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Joynt/Joynt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Joynt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joynt.app;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A35C1AC1B471B0B557F3756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3FB27581656350AFE463E3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F3BE791E33D80373EE3EEBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Joynt/Joynt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Joynt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joynt.app;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10B6DAC1C786CD310F495CFD /* Build configuration list for PBXProject "Joynt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB27581656350AFE463E3A2 /* Debug */,
+				2A35C1AC1B471B0B557F3756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5B2B4F42F5FD5A1DAC04DAF /* Build configuration list for PBXNativeTarget "Joynt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BE791E33D80373EE3EEBEE /* Debug */,
+				008C2355000A46964D1C8AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B2FF7F087F7B6D74FB83D9D /* Project object */;
+}

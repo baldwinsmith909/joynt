@@ -1,0 +1,53 @@
+name: Joynt
+options:
+  bundleIdPrefix: com.joynt
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+targets:
+  Joynt:
+    type: application
+    platform: iOS
+    sources:
+      - path: Joynt
+        excludes:
+          - "**/*.md"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.joynt.app
+        INFOPLIST_FILE: Joynt/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Joynt/Joynt.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        GENERATE_INFOPLIST_FILE: false
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: false
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: false
+        SWIFT_EMIT_LOC_STRINGS: true
+    dependencies: []
+    info:
+      path: Joynt/Info.plist
+      properties:
+        CFBundleDisplayName: Joynt
+        UILaunchScreen_Generation: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+schemes:
+  Joynt:
+    build:
+      targets:
+        Joynt: all
+    run:
+      config: Debug
+    archive:
+      config: Release
