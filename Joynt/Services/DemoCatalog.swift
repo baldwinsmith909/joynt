@@ -45,6 +45,21 @@ enum DemoCatalog {
         let now = Date()
         return [
             MealPost(
+                id: UUID(uuidString: "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaa0")!,
+                author: baldwin,
+                note: "First plate of the week.",
+                photoPath: nil,
+                photoURL: nil,
+                localImage: syntheticMeal(hue: 0.33, label: "GREENS"),
+                createdAt: now.addingTimeInterval(-3600 * 1),
+                accentIndex: 5,
+                appreciateCount: 3,
+                saveCount: 1,
+                commentCount: 0,
+                viewerAppreciated: false,
+                viewerSaved: false
+            ),
+            MealPost(
                 id: UUID(uuidString: "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaa1")!,
                 author: mila,
                 note: "Tuesday noodles. No notes needed, but here we are.",

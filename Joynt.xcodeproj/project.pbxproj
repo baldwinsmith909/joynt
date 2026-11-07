@@ -23,6 +23,7 @@
 		D5792EF9AE67C5C20F7FA6D9 /* SupabaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD77CB09074B257B3F2632 /* SupabaseClient.swift */; };
 		E549DD7BF554F84FA53A8906 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD0893E3F47FB2C329A72DD /* FeedView.swift */; };
 		EA43A91854DDB7447E252347 /* SupabaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1BB9B79598C9FCFAED2FA /* SupabaseConfig.swift */; };
+		EE9E9B798C2C762197152738 /* Info 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81519E710DF21C30D4F277D9 /* Info 2.plist */; };
 		FFAFCEE51C85F79C1268973A /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67422FF5C2C7CEB049713053 /* AppStore.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		4DBE2F9CA78C285FB3DF7748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56E43FA424AAD141A52CB0C5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		67422FF5C2C7CEB049713053 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		81519E710DF21C30D4F277D9 /* Info 2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Info 2.plist"; sourceTree = "<group>"; };
 		988BED67B8A9DCB144AC14BB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		B550A8F0F44B58AC3A42FF3D /* JoyntTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyntTheme.swift; sourceTree = "<group>"; };
 		D1E1BB9B79598C9FCFAED2FA /* SupabaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseConfig.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				4DBE2F9CA78C285FB3DF7748 /* Assets.xcassets */,
+				81519E710DF21C30D4F277D9 /* Info 2.plist */,
 				E6B7073C92DD16F759C16806 /* Info.plist */,
 				EC38E242FB0A9A033D1A66D7 /* Joynt.entitlements */,
 				0A879F535054D689D3DAB7A9 /* JoyntApp.swift */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B8CA03566D1544B98F9CF74 /* Assets.xcassets in Resources */,
+				EE9E9B798C2C762197152738 /* Info 2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

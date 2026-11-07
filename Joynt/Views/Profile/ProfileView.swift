@@ -54,7 +54,7 @@ struct ProfileView: View {
                     Text(bio)
                         .font(.system(size: 15, weight: .medium))
                 }
-                Text("\(meals.count) meals")
+                Text(meals.count == 1 ? "1 meal" : "\(meals.count) meals")
                     .font(.system(size: 12, weight: .bold, design: .monospaced))
                     .foregroundStyle(.black.opacity(0.5))
             }

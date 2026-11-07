@@ -20,6 +20,7 @@ final class AppStore: ObservableObject {
 
     init() {
         bootstrapDemoIfNeeded()
+        restoreSessionIfPossible()
     }
 
     var currentUser: UserProfile? { session?.user }
@@ -258,6 +259,40 @@ final class AppStore: ObservableObject {
         // Keep empty until user signs in / continues with demo.
         posts = []
         comments = []
+    }
+
+    private func restoreSessionIfPossible() {
+        guard let idString = defaults.string(forKey: sessionKey),
+              let id = UUID(uuidString: idString) else { return }
+        // Restore demo Baldwin session for local loop / screenshot launches.
+        if id == DemoCatalog.baldwin.id {
+            session = AppSession(user: DemoCatalog.baldwin, isDemo: true)
+            followingIds = [DemoCatalog.mila.id, DemoCatalog.otto.id]
+            posts = DemoCatalog.makeSeedPosts()
+            comments = DemoCatalog.makeSeedComments()
+        }
+    }
+
+    func applyDeepLink(_ url: URL) {
+        guard url.scheme == "joynt" else { return }
+        if !isSignedIn {
+            continueWithDemo()
+        }
+        switch url.host {
+        case "post":
+            selectedTab = .post
+        case "profile":
+            selectedTab = .profile
+        case "feed":
+            selectedTab = .feed
+            if url.path.contains("following") {
+                feedKind = .following
+            } else {
+                feedKind = .forYou
+            }
+        default:
+            break
+        }
     }
 
     private func sanitizeHandle(_ name: String) -> String {

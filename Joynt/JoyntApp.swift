@@ -10,17 +10,33 @@ struct JoyntApp: App {
                 .environmentObject(store)
                 .preferredColorScheme(.light)
                 .onAppear {
-                    if ProcessInfo.processInfo.arguments.contains("-demoAuto") {
+                    let args = ProcessInfo.processInfo.arguments
+                    let env = ProcessInfo.processInfo.environment
+                    let demo = args.contains("-demoAuto") || env["JOYNT_DEMO"] == "1"
+                    if demo {
                         store.continueWithDemo()
-                        if ProcessInfo.processInfo.arguments.contains("-tabPost") {
+                    }
+                    switch env["JOYNT_TAB"] ?? "" {
+                    case "post":
+                        store.selectedTab = .post
+                    case "profile":
+                        store.selectedTab = .profile
+                    case "feed":
+                        store.selectedTab = .feed
+                        store.feedKind = .forYou
+                    default:
+                        if args.contains("-tabPost") {
                             store.selectedTab = .post
-                        } else if ProcessInfo.processInfo.arguments.contains("-tabProfile") {
+                        } else if args.contains("-tabProfile") {
                             store.selectedTab = .profile
-                        } else {
+                        } else if demo {
                             store.selectedTab = .feed
                             store.feedKind = .forYou
                         }
                     }
+                }
+                .onOpenURL { url in
+                    store.applyDeepLink(url)
                 }
         }
     }
